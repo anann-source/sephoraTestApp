@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A309C532DC68B9F005DF09D /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 8A309C522DC68B9F005DF09D /* DesignSystem */; };
+		8A309C552DC68B9F005DF09D /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 8A309C542DC68B9F005DF09D /* Networking */; };
+		8A309C572DC68B9F005DF09D /* ProductListingPage in Frameworks */ = {isa = PBXBuildFile; productRef = 8A309C562DC68B9F005DF09D /* ProductListingPage */; };
+		8AEAD5ED2DC7A30700D6FB4F /* Persistance in Frameworks */ = {isa = PBXBuildFile; productRef = 8AEAD5EC2DC7A30700D6FB4F /* Persistance */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A309C2C2DC688F0005DF09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A309C152DC688EC005DF09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A309C1C2DC688EC005DF09D;
+			remoteInfo = SephoraApp;
+		};
+		8A309C362DC688F0005DF09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A309C152DC688EC005DF09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A309C1C2DC688EC005DF09D;
+			remoteInfo = SephoraApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A309C1D2DC688EC005DF09D /* SephoraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SephoraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A309C2B2DC688F0005DF09D /* SephoraAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SephoraAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A309C352DC688F0005DF09D /* SephoraAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SephoraAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8A309C4E2DC68A59005DF09D /* Exceptions for "Package" folder in "SephoraApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Feature/ProductListingPage,
+				SharedCore/DesignSystem,
+				SharedCore/Networking,
+				SharedCore/Persistance,
+			);
+			target = 8A309C1C2DC688EC005DF09D /* SephoraApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8A309C1F2DC688EC005DF09D /* SephoraApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SephoraApp;
+			sourceTree = "<group>";
+		};
+		8A309C2E2DC688F0005DF09D /* SephoraAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SephoraAppTests;
+			sourceTree = "<group>";
+		};
+		8A309C382DC688F0005DF09D /* SephoraAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SephoraAppUITests;
+			sourceTree = "<group>";
+		};
+		8A309C4A2DC68996005DF09D /* Package */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8A309C4E2DC68A59005DF09D /* Exceptions for "Package" folder in "SephoraApp" target */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A309C1A2DC688EC005DF09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEAD5ED2DC7A30700D6FB4F /* Persistance in Frameworks */,
+				8A309C552DC68B9F005DF09D /* Networking in Frameworks */,
+				8A309C532DC68B9F005DF09D /* DesignSystem in Frameworks */,
+				8A309C572DC68B9F005DF09D /* ProductListingPage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A309C282DC688F0005DF09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A309C322DC688F0005DF09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A309C142DC688EC005DF09D = {
+			isa = PBXGroup;
+			children = (
+				8A309C1F2DC688EC005DF09D /* SephoraApp */,
+				8A309C2E2DC688F0005DF09D /* SephoraAppTests */,
+				8A309C382DC688F0005DF09D /* SephoraAppUITests */,
+				8A309C4A2DC68996005DF09D /* Package */,
+				8A309C512DC68B9F005DF09D /* Frameworks */,
+				8A309C1E2DC688EC005DF09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A309C1E2DC688EC005DF09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A309C1D2DC688EC005DF09D /* SephoraApp.app */,
+				8A309C2B2DC688F0005DF09D /* SephoraAppTests.xctest */,
+				8A309C352DC688F0005DF09D /* SephoraAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A309C512DC68B9F005DF09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A309C1C2DC688EC005DF09D /* SephoraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A309C3F2DC688F0005DF09D /* Build configuration list for PBXNativeTarget "SephoraApp" */;
+			buildPhases = (
+				8A309C192DC688EC005DF09D /* Sources */,
+				8A309C1A2DC688EC005DF09D /* Frameworks */,
+				8A309C1B2DC688EC005DF09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8A309C1F2DC688EC005DF09D /* SephoraApp */,
+				8A309C4A2DC68996005DF09D /* Package */,
+			);
+			name = SephoraApp;
+			packageProductDependencies = (
+				8A309C522DC68B9F005DF09D /* DesignSystem */,
+				8A309C542DC68B9F005DF09D /* Networking */,
+				8A309C562DC68B9F005DF09D /* ProductListingPage */,
+				8AEAD5EC2DC7A30700D6FB4F /* Persistance */,
+			);
+			productName = SephoraApp;
+			productReference = 8A309C1D2DC688EC005DF09D /* SephoraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A309C2A2DC688F0005DF09D /* SephoraAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A309C422DC688F0005DF09D /* Build configuration list for PBXNativeTarget "SephoraAppTests" */;
+			buildPhases = (
+				8A309C272DC688F0005DF09D /* Sources */,
+				8A309C282DC688F0005DF09D /* Frameworks */,
+				8A309C292DC688F0005DF09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A309C2D2DC688F0005DF09D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A309C2E2DC688F0005DF09D /* SephoraAppTests */,
+			);
+			name = SephoraAppTests;
+			packageProductDependencies = (
+			);
+			productName = SephoraAppTests;
+			productReference = 8A309C2B2DC688F0005DF09D /* SephoraAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A309C342DC688F0005DF09D /* SephoraAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A309C452DC688F0005DF09D /* Build configuration list for PBXNativeTarget "SephoraAppUITests" */;
+			buildPhases = (
+				8A309C312DC688F0005DF09D /* Sources */,
+				8A309C322DC688F0005DF09D /* Frameworks */,
+				8A309C332DC688F0005DF09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A309C372DC688F0005DF09D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8A309C382DC688F0005DF09D /* SephoraAppUITests */,
+			);
+			name = SephoraAppUITests;
+			packageProductDependencies = (
+			);
+			productName = SephoraAppUITests;
+			productReference = 8A309C352DC688F0005DF09D /* SephoraAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A309C152DC688EC005DF09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					8A309C1C2DC688EC005DF09D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					8A309C2A2DC688F0005DF09D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8A309C1C2DC688EC005DF09D;
+					};
+					8A309C342DC688F0005DF09D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 8A309C1C2DC688EC005DF09D;
+					};
+				};
+			};
+			buildConfigurationList = 8A309C182DC688EC005DF09D /* Build configuration list for PBXProject "SephoraApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A309C142DC688EC005DF09D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8A309C1E2DC688EC005DF09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A309C1C2DC688EC005DF09D /* SephoraApp */,
+				8A309C2A2DC688F0005DF09D /* SephoraAppTests */,
+				8A309C342DC688F0005DF09D /* SephoraAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A309C1B2DC688EC005DF09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A309C292DC688F0005DF09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A309C332DC688F0005DF09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A309C192DC688EC005DF09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A309C272DC688F0005DF09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A309C312DC688F0005DF09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A309C2D2DC688F0005DF09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A309C1C2DC688EC005DF09D /* SephoraApp */;
+			targetProxy = 8A309C2C2DC688F0005DF09D /* PBXContainerItemProxy */;
+		};
+		8A309C372DC688F0005DF09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A309C1C2DC688EC005DF09D /* SephoraApp */;
+			targetProxy = 8A309C362DC688F0005DF09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A309C3D2DC688F0005DF09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A309C3E2DC688F0005DF09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8A309C402DC688F0005DF09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SephoraApp/SephoraApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faubourg.MyProjectAnann.SephoraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		8A309C412DC688F0005DF09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SephoraApp/SephoraApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faubourg.MyProjectAnann.SephoraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		8A309C432DC688F0005DF09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faubourg.MyProjectAnann.SephoraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SephoraApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SephoraApp";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		8A309C442DC688F0005DF09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faubourg.MyProjectAnann.SephoraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SephoraApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SephoraApp";
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+		8A309C462DC688F0005DF09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faubourg.MyProjectAnann.SephoraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = SephoraApp;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		8A309C472DC688F0005DF09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.faubourg.MyProjectAnann.SephoraAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = SephoraApp;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A309C182DC688EC005DF09D /* Build configuration list for PBXProject "SephoraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A309C3D2DC688F0005DF09D /* Debug */,
+				8A309C3E2DC688F0005DF09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A309C3F2DC688F0005DF09D /* Build configuration list for PBXNativeTarget "SephoraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A309C402DC688F0005DF09D /* Debug */,
+				8A309C412DC688F0005DF09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A309C422DC688F0005DF09D /* Build configuration list for PBXNativeTarget "SephoraAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A309C432DC688F0005DF09D /* Debug */,
+				8A309C442DC688F0005DF09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A309C452DC688F0005DF09D /* Build configuration list for PBXNativeTarget "SephoraAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A309C462DC688F0005DF09D /* Debug */,
+				8A309C472DC688F0005DF09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A309C522DC68B9F005DF09D /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		8A309C542DC68B9F005DF09D /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		8A309C562DC68B9F005DF09D /* ProductListingPage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductListingPage;
+		};
+		8AEAD5EC2DC7A30700D6FB4F /* Persistance */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Persistance;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8A309C152DC688EC005DF09D /* Project object */;
+}
